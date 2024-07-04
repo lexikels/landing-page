@@ -2,6 +2,7 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* header CSS */
 header {
   background-color: #1f2937;
   display: flex;
@@ -31,12 +32,16 @@ header .link {
   margin: 5px;
 }
 
+/* main CSS*/
+
+/* hero CSS */
 .hero {
   background-color: #1f2937;
   color: #e5e7eb;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 5px;
   padding-block: 100px;
   padding-inline: 250px;
 }
@@ -57,12 +62,14 @@ header .link {
   margin-top: 5px;
   margin-bottom: 5px;
   flex: 1;
+  font-size: 18px;
 }
 
-h1 {
+h1 .hero {
   font-weight: bolder;
   color: #f9faf8;
   margin: 0;
+  font-size: 48px;
 }
 
 button {
@@ -72,4 +79,34 @@ button {
   padding: 10px;
   border: 0;
   border-radius: 7px;
+}
+
+/* info CSS */
+
+.info {
+  background-color: #f9faf8;
+}
+
+/* quote CSS */
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-block: 100px;
+  padding-inline: 250px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+  text-align: center;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
 }
